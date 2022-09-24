@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Afghanistan",
+    "alpha3Code": "AFG",
+    "capital": "Kabul",
+    "population": 40218234,
+    "flags": {
+      "svg": "https://flags.com/afg.svg",
+      "png": "https://flags.com/afg.png"
+    },
+    "independent": false
+  },
+  {
+    "name": "Aland Islands",
+    "alpha3Code": "ALA",
+    "capital": "Mariehamn",
+    "population": 28875,
+    "flags": {
+      "svg": "https://flagcdn.com/ax.svg",
+      "png": "https://flagcdn.com/w320/ax.png"
+    },
+    "independent": false
+  }
+]

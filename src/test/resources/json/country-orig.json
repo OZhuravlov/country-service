@@ -1,0 +1,11 @@
+{
+  "name": "Afghanistan",
+  "alpha3Code": "AFG",
+  "capital": "Kabul",
+  "population": 40218234,
+  "flags": {
+    "svg": "https://flags.com/afg.svg",
+    "png": "https://flags.com/afg.png"
+  },
+  "independent": false
+}

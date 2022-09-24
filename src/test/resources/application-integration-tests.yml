@@ -1,0 +1,8 @@
+wiremock:
+  reset-mappings-after-each-test: true
+  server:
+    port: 9999
+
+country:
+  base-url: http://localhost:${wiremock.server.port}/restcountries/v2
+

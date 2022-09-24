@@ -1,0 +1,35 @@
+server:
+  port: ${APP_PORT:9010}
+
+country:
+  cache:
+    duration-in-minutes: ${COUNTRY_CACHE_DURATION_IN_MINUTES:600}
+  base-url: https://${COUNTRY_BASE_URL:restcountries.com/v2}
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui
+
+info:
+  app:
+    name: '@project.name@'
+    version: '@project.version@'
+    description: '@project.description@'
+    encoding: '@project.build.sourceEncoding@'
+    java.version: '@java.version@'
+    spring_boot.version: '@spring-boot.version@'
+    environment: ${spring.profiles.active:default}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info
+  endpoint:
+    health:
+      show-details: always
+  info:
+    env:
+      enabled: true
